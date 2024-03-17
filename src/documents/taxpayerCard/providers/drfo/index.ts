@@ -1,7 +1,7 @@
 import moment from 'moment'
 
-import { ExternalCommunicator, ExternalEvent } from '@diia-inhouse/diia-queue'
-import { DocStatus, DocumentType, Logger, UserTokenData } from '@diia-inhouse/types'
+import { ExternalCommunicator, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { DocStatus, DocumentType, Logger, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import TaxpayerCardDataMapper from '@src/documents/taxpayerCard/dataMappers/document'
 import { PluginConfig } from '@src/documents/taxpayerCard/interfaces/config'

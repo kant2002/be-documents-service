@@ -1,4 +1,4 @@
-import { AppUserActionHeaders, DocumentInstance, DocumentType, ServiceEntranceActionArguments } from '@diia-inhouse/types'
+import { AppUserActionHeaders, DocumentInstance, DocumentType, ServiceEntranceActionArguments } from '@kant2002-diia-inhouse/types'
 
 interface ActionHeaders extends AppUserActionHeaders {
     token: string

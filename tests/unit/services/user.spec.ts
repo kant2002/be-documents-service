@@ -1,11 +1,11 @@
 import { randomUUID } from 'crypto'
 
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { ActionVersion, DocStatus, DocumentType, OwnerType, ProfileFeature } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { ActionVersion, DocStatus, DocumentType, OwnerType, ProfileFeature } from '@kant2002-diia-inhouse/types'
 
 import UserService from '@services/user'
 

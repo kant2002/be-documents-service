@@ -1,4 +1,4 @@
-import { PluginDepsCollection } from '@diia-inhouse/diia-app'
+import { PluginDepsCollection } from '@kant2002-diia-inhouse/diia-app'
 
 import {
     ActionCode,
@@ -11,7 +11,7 @@ import {
     TableItemMlc,
     TableItemVerticalMlc,
     TickerAtm,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import { DocumentDesignSystemDataMapper } from '@interfaces/dataMappers'
 import { ComponentIdFrontCard, DocumentMediaAlias } from '@interfaces/services/documents'

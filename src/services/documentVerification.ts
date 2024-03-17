@@ -1,17 +1,17 @@
 import { v4 as uuidv4 } from 'uuid'
 
-import { PluginDepsCollection } from '@diia-inhouse/diia-app'
+import { PluginDepsCollection } from '@kant2002-diia-inhouse/diia-app'
 
 import {
     AnalyticsActionResult,
     AnalyticsActionType,
     AnalyticsCategory,
     AnalyticsService as CoreAnalyticsService,
-} from '@diia-inhouse/analytics'
-import { AuthService } from '@diia-inhouse/crypto'
-import { ApiError, BadRequestError, DocumentNotFoundError, NotFoundError } from '@diia-inhouse/errors'
-import { ActHeaders, DocStatus, DocumentInstance, DocumentType, Localization, Logger, OwnerType, UserTokenData } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/analytics'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import { ApiError, BadRequestError, DocumentNotFoundError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { ActHeaders, DocStatus, DocumentInstance, DocumentType, Localization, Logger, OwnerType, UserTokenData } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import AnalyticsService from '@services/analytics'
 import DocumentsExpirationService from '@services/documentsExpiration'

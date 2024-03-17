@@ -3,7 +3,7 @@ import 'module-alias/register'
 import { Db, Filter } from 'mongodb'
 import { UpdateQuery } from 'mongoose'
 
-import { DocumentType } from '@diia-inhouse/types'
+import { DocumentType } from '@kant2002-diia-inhouse/types'
 
 import { DocumentSetting, ExpirationType } from '@interfaces/models/documentSetting'
 

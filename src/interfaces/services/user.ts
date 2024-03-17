@@ -1,4 +1,4 @@
-import { DocStatus, DocumentType, OwnerType, PlatformType, UserDocumentSubtype, UserFeatures } from '@diia-inhouse/types'
+import { DocStatus, DocumentType, OwnerType, PlatformType, UserDocumentSubtype, UserFeatures } from '@kant2002-diia-inhouse/types'
 
 export interface DocumentTypeOrder {
     documentTypeOrder: number

@@ -1,6 +1,6 @@
 import { UpdateQuery } from 'mongoose'
 
-import { DocStatus, OwnerType } from '@diia-inhouse/types'
+import { DocStatus, OwnerType } from '@kant2002-diia-inhouse/types'
 
 import { PassportType } from '@interfaces/dto/passport'
 import { DocumentsExpirationModel } from '@interfaces/models/documentsExpiration'

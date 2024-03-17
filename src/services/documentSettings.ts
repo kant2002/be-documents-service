@@ -1,6 +1,6 @@
 import { FilterQuery } from 'mongoose'
 
-import { DocumentType, Logger } from '@diia-inhouse/types'
+import { DocumentType, Logger } from '@kant2002-diia-inhouse/types'
 
 import documentSettingModel from '@models/documentSetting'
 

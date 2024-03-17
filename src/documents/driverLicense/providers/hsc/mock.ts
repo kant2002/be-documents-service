@@ -1,4 +1,4 @@
-import { Logger } from '@diia-inhouse/types'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import DriverLicenseDataMapper from '@src/documents/driverLicense/dataMappers/document'
 import { DriverLicenseHscServiceProvider } from '@src/documents/driverLicense/interfaces/providers'

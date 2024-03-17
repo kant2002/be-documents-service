@@ -2,8 +2,8 @@ import { randomUUID } from 'crypto'
 
 import { ObjectId } from 'bson'
 
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocumentType, Localization, PassportType } from '@diia-inhouse/types'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocumentType, Localization, PassportType } from '@kant2002-diia-inhouse/types'
 
 import ShareForeignPassportAction from '@actions/v1/shareForeignPassport'
 

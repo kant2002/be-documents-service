@@ -1,8 +1,8 @@
 import { randomUUID } from 'crypto'
 
-import { AuthService } from '@diia-inhouse/crypto'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocStatus, Localization, OwnerType } from '@diia-inhouse/types'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocStatus, Localization, OwnerType } from '@kant2002-diia-inhouse/types'
 
 import DocumentVerificationDataMapper from '@dataMappers/documentVerificationDataMapper'
 

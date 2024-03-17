@@ -1,6 +1,6 @@
-import Logger from '@diia-inhouse/diia-logger'
-import { AccessDeniedError, BadRequestError, DocumentNotFoundError, InternalServerError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { AccessDeniedError, BadRequestError, DocumentNotFoundError, InternalServerError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 import {
     ActionCode,
     DocStatus,
@@ -14,7 +14,7 @@ import {
     TickerAtm,
     TickerAtmType,
     TickerAtmUsage,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import TaxpayerCardDataMapper from '@src/documents/taxpayerCard/dataMappers/document'
 import { GetTaxpayerCardResponse } from '@src/documents/taxpayerCard/interfaces/services/taxpayer'

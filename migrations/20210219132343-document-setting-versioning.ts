@@ -4,7 +4,7 @@ import 'module-alias/register'
 
 import { AnyBulkWriteOperation, Db } from 'mongodb'
 
-import { DocumentType } from '@diia-inhouse/types'
+import { DocumentType } from '@kant2002-diia-inhouse/types'
 
 import { DocumentSetting, DocumentSettingVersion, ExpirationTime, ExpirationType } from '@interfaces/models/documentSetting'
 

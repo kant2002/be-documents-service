@@ -1,9 +1,9 @@
 import { asClass } from 'awilix'
 
-import { Application, GrpcService, MoleculerService, ServiceContext, ServiceOperator } from '@diia-inhouse/diia-app'
+import { Application, GrpcService, MoleculerService, ServiceContext, ServiceOperator } from '@kant2002-diia-inhouse/diia-app'
 
-import { EventBus, ExternalEventBus, Queue, ScheduledTask, Task } from '@diia-inhouse/diia-queue'
-import { mockClass } from '@diia-inhouse/test'
+import { EventBus, ExternalEventBus, Queue, ScheduledTask, Task } from '@kant2002-diia-inhouse/diia-queue'
+import { mockClass } from '@kant2002-diia-inhouse/test'
 
 import config from '@src/config'
 import { getLoadDepsFromFolderOptions } from '@src/documents/deps'

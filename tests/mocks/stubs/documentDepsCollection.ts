@@ -3,7 +3,7 @@ import EventEmitter from 'events'
 
 import { merge } from 'lodash'
 
-import { DocumentType, Localization, ProfileFeature, SessionType } from '@diia-inhouse/types'
+import { DocumentType, Localization, ProfileFeature, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { DocumentDataMapper, DocumentDesignSystemDataMapper } from '@interfaces/dataMappers'
 import {

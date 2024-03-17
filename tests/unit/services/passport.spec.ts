@@ -2,7 +2,7 @@ const mockUtils = {
     handleError: (error: Error, callback: CallableFunction): Promise<void> => callback(error),
 }
 
-jest.mock('@diia-inhouse/utils', () => ({
+jest.mock('@kant2002-diia-inhouse/utils', () => ({
     utils: mockUtils,
 }))
 
@@ -12,9 +12,9 @@ import { merge } from 'lodash'
 import moment from 'moment'
 import { mongo } from 'mongoose'
 
-import { AnalyticsService } from '@diia-inhouse/analytics'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { Task } from '@diia-inhouse/diia-queue'
+import { AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { Task } from '@kant2002-diia-inhouse/diia-queue'
 import {
     AccessDeniedError,
     ApiError,
@@ -22,8 +22,8 @@ import {
     ExternalCommunicatorError,
     InternalServerError,
     NotFoundError,
-} from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+} from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 import {
     AppUser,
     DocStatus,
@@ -33,7 +33,7 @@ import {
     PassportGenderEN,
     PassportType,
     TableBlockOrg,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import TaxpayerCardService from '@src/documents/taxpayerCard/services/document'
 

@@ -1,4 +1,4 @@
-import { DocStatus } from '@diia-inhouse/types'
+import { DocStatus } from '@kant2002-diia-inhouse/types'
 
 import { DocumentMetaData } from '@interfaces/services/documentsMetaData'
 

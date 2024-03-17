@@ -1,5 +1,5 @@
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocumentType, HttpStatusCode } from '@diia-inhouse/types'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocumentType, HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import GetDocumentsAction from '@actions/v1/getDocuments'
 

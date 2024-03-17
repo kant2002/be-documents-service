@@ -1,7 +1,7 @@
-import { PluginDepsCollection } from '@diia-inhouse/diia-app'
+import { PluginDepsCollection } from '@kant2002-diia-inhouse/diia-app'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { DocStatus, DocumentType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { DocStatus, DocumentType } from '@kant2002-diia-inhouse/types'
 
 import DocumentAttributesService from '@services/documentAttributes'
 

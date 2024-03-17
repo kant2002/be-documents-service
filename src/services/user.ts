@@ -1,7 +1,7 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import { ActionVersion, AppUserActionHeaders, DocumentType, Logger, ProfileFeature, UserFeatures } from '@diia-inhouse/types'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { ActionVersion, AppUserActionHeaders, DocumentType, Logger, ProfileFeature, UserFeatures } from '@kant2002-diia-inhouse/types'
 
 import DocumentsDataMapper from '@dataMappers/documentsDataMapper'
 

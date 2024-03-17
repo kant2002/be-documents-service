@@ -2,10 +2,10 @@ import { randomUUID } from 'crypto'
 
 import * as uuid from 'uuid'
 
-import { EventBus } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError, DocumentNotFoundError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
-import { DocumentType, DriverLicense, DurationMs } from '@diia-inhouse/types'
+import { EventBus } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError, DocumentNotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { DocumentType, DriverLicense, DurationMs } from '@kant2002-diia-inhouse/types'
 
 import ShareDriverLicenseAction from '@src/documents/driverLicense/actions/v1/shareDriverLicense'
 import { DriverLicenseDocumentDTO } from '@src/documents/driverLicense/interfaces/providers/hsc'

@@ -1,5 +1,5 @@
-import { AuthService } from '@diia-inhouse/crypto'
-import { UserTokenData } from '@diia-inhouse/types'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import { UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import Utils from '@utils/index'
 

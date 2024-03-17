@@ -12,8 +12,8 @@ import {
     Logger,
     TableBlockOrg,
     UserTokenData,
-} from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import { TaxpayerCard, TaxpayerCardInDocument } from '@src/documents/taxpayerCard/interfaces/services/taxpayer'
 

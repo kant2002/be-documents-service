@@ -1,7 +1,7 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { InternalServerError } from '@diia-inhouse/errors'
-import { ActionVersion, GenericData, GenericObject, Logger } from '@diia-inhouse/types'
+import { InternalServerError } from '@kant2002-diia-inhouse/errors'
+import { ActionVersion, GenericData, GenericObject, Logger } from '@kant2002-diia-inhouse/types'
 
 import { GenerationResult } from '@interfaces/services/superGen'
 

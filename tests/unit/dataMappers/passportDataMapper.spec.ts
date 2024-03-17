@@ -1,5 +1,5 @@
-import { DocumentNotFoundError } from '@diia-inhouse/errors'
-import { mockInstance } from '@diia-inhouse/test'
+import { DocumentNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 import {
     ActionCode,
     DocumentInstance,
@@ -14,7 +14,7 @@ import {
     TickerAtm,
     TickerAtmType,
     TickerAtmUsage,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import DocumentAttributesService from '@services/documentAttributes'
 

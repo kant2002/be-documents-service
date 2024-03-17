@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-shadow */
-import { DocumentDecryptedData } from '@diia-inhouse/crypto'
+import { DocumentDecryptedData } from '@kant2002-diia-inhouse/crypto'
 import {
     ActHeaders,
     AppUser,
@@ -21,7 +21,7 @@ import {
     UserActionHeaders,
     UserFeatures,
     UserTokenData,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import { RegistryPassportDTO } from '@interfaces/dto'
 import { ExpirationType } from '@interfaces/models/documentSetting'

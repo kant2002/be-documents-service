@@ -1,4 +1,4 @@
-import { DocumentType, ListItemGroupOrg, ListItemMlc } from '@diia-inhouse/types'
+import { DocumentType, ListItemGroupOrg, ListItemMlc } from '@kant2002-diia-inhouse/types'
 
 export interface ManualDocumentListItem {
     code: string

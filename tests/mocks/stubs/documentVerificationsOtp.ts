@@ -1,4 +1,4 @@
-import { DocStatus, DocumentType, OwnerType } from '@diia-inhouse/types'
+import { DocStatus, DocumentType, OwnerType } from '@kant2002-diia-inhouse/types'
 
 import { DocumentVerificationOtp } from '@interfaces/models/documentVerificationOtp'
 

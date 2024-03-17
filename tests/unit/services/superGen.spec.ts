@@ -1,8 +1,8 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import Logger from '@diia-inhouse/diia-logger'
-import { mockInstance } from '@diia-inhouse/test'
-import { ActionVersion } from '@diia-inhouse/types'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
+import { ActionVersion } from '@kant2002-diia-inhouse/types'
 
 import SuperGenService from '@services/superGen'
 

@@ -1,8 +1,8 @@
 import { isObject } from 'lodash'
 
-import { ExternalCommunicator, ExternalEvent } from '@diia-inhouse/diia-queue'
-import { DocumentNotFoundError, ErrorType } from '@diia-inhouse/errors'
-import { Logger } from '@diia-inhouse/types'
+import { ExternalCommunicator, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { DocumentNotFoundError, ErrorType } from '@kant2002-diia-inhouse/errors'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import DriverLicenseDataMapper from '@src/documents/driverLicense/dataMappers/document'
 import { DriverLicenseHscServiceProvider } from '@src/documents/driverLicense/interfaces/providers'

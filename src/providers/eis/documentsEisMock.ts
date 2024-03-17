@@ -1,4 +1,4 @@
-import { Logger, UserTokenData } from '@diia-inhouse/types'
+import { Logger, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import { passportEisSuccessResponse } from '@providers/testData/documentsMockData'
 

@@ -2,8 +2,8 @@ import { ObjectId } from 'bson'
 import { AnyBulkWriteOperation } from 'mongodb'
 import { AnyObject, Document, FilterQuery, Model } from 'mongoose'
 
-import { DatabaseError } from '@diia-inhouse/errors'
-import { Logger } from '@diia-inhouse/types'
+import { DatabaseError } from '@kant2002-diia-inhouse/errors'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import { AppConfig } from '@interfaces/config'
 

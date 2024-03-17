@@ -1,4 +1,4 @@
-import { ServiceEntranceActionArguments } from '@diia-inhouse/types'
+import { ServiceEntranceActionArguments } from '@kant2002-diia-inhouse/types'
 
 import { VerificationResponse } from '@interfaces/services/documentVerification'
 

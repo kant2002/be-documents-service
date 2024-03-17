@@ -1,11 +1,11 @@
 import { randomUUID } from 'crypto'
 
-import Logger from '@diia-inhouse/diia-logger'
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import { NotFoundError } from '@diia-inhouse/errors'
-import { StoreService } from '@diia-inhouse/redis'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DurationMs, HttpStatusCode } from '@diia-inhouse/types'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { StoreService } from '@kant2002-diia-inhouse/redis'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DurationMs, HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import PublishAdultRegistrationAddressCommunityTask from '@src/tasks/publishAdultRegistrationAddressCommunity'
 

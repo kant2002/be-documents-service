@@ -1,4 +1,4 @@
-import { PassportGenderEN } from '@diia-inhouse/types'
+import { PassportGenderEN } from '@kant2002-diia-inhouse/types'
 
 import { PassportByInnDocumentType } from '@src/generated'
 

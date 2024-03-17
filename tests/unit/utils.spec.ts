@@ -1,10 +1,10 @@
 import moment from 'moment'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { BadRequestError, InternalServerError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { AuthDocumentType, DocumentType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { BadRequestError, InternalServerError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { AuthDocumentType, DocumentType } from '@kant2002-diia-inhouse/types'
 
 import Utils from '@src/utils'
 

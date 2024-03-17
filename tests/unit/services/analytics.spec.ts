@@ -1,8 +1,8 @@
 import { randomUUID } from 'crypto'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocStatus, DocumentType, HttpStatusCode } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocStatus, DocumentType, HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import AnalyticsService from '@src/services/analytics'
 

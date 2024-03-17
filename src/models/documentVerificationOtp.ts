@@ -1,6 +1,6 @@
 import { Model, Schema, model, models } from 'mongoose'
 
-import { DocStatus, DocumentType, Localization, OwnerType } from '@diia-inhouse/types'
+import { DocStatus, DocumentType, Localization, OwnerType } from '@kant2002-diia-inhouse/types'
 
 import { DocumentVerificationOtp } from '@interfaces/models/documentVerificationOtp'
 

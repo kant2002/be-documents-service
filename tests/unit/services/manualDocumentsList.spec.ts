@@ -1,5 +1,5 @@
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import ManualDocumentsListService from '@services/manualDocumentsList'
 import UserService from '@services/user'

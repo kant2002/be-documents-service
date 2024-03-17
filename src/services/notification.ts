@@ -1,6 +1,6 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion, Logger } from '@diia-inhouse/types'
+import { ActionVersion, Logger } from '@kant2002-diia-inhouse/types'
 
 import { CreateNotificationWithPushesByMobileUidParams, GetNotificationByResourceTypeResult } from '@interfaces/services/notification'
 

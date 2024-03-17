@@ -1,6 +1,6 @@
 import moment from 'moment'
 
-import { InternalServerError } from '@diia-inhouse/errors'
+import { InternalServerError } from '@kant2002-diia-inhouse/errors'
 
 import { PassportRegistration, PassportRegistrationInfo } from '@src/generated'
 

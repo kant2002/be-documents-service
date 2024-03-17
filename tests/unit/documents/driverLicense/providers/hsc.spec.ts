@@ -1,7 +1,7 @@
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import { DocumentNotFoundError } from '@diia-inhouse/errors'
-import { mockInstance } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import { DocumentNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import DriverLicenseDataMapper from '@src/documents/driverLicense/dataMappers/document'
 import DriverLicenseHscProvider from '@src/documents/driverLicense/providers/hsc'

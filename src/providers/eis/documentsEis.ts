@@ -1,15 +1,15 @@
 import { isObject } from 'lodash'
 
-import { ExternalCommunicator, ExternalEvent } from '@diia-inhouse/diia-queue'
-import { ReceiveDirectOps } from '@diia-inhouse/diia-queue/dist/types/interfaces/externalCommunicator'
+import { ExternalCommunicator, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { ReceiveDirectOps } from '@kant2002-diia-inhouse/diia-queue/dist/types/interfaces/externalCommunicator'
 import {
     AccessDeniedError,
     ApiError,
     DocumentNotFoundError,
     ExternalCommunicatorError,
     ServiceUnavailableError,
-} from '@diia-inhouse/errors'
-import { HttpStatusCode, Logger, UserTokenData } from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/errors'
+import { HttpStatusCode, Logger, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import PassportDataMapper from '@dataMappers/passportDataMapper'
 

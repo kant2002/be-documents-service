@@ -1,4 +1,4 @@
-import { DocStatus, Localization, TaxpayerCardInDocument, TickerAtm } from '@diia-inhouse/types'
+import { DocStatus, Localization, TaxpayerCardInDocument, TickerAtm } from '@kant2002-diia-inhouse/types'
 
 import { PassportRegistrationInfo } from '@src/generated'
 

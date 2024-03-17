@@ -1,9 +1,9 @@
 import { when } from 'jest-when'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { EventBus, ExternalCommunicator, InternalEvent } from '@diia-inhouse/diia-queue'
-import TestKit from '@diia-inhouse/test'
-import { DocumentType, HttpStatusCode, OwnerType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { EventBus, ExternalCommunicator, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { DocumentType, HttpStatusCode, OwnerType } from '@kant2002-diia-inhouse/types'
 
 import GetDocumentsAction from '@actions/v2/getDocuments'
 

@@ -1,8 +1,8 @@
 import moment from 'moment'
 
-import { PluginDepsCollection } from '@diia-inhouse/diia-app'
+import { PluginDepsCollection } from '@kant2002-diia-inhouse/diia-app'
 
-import { DocStatus, DocumentType, HttpStatusCode, Logger } from '@diia-inhouse/types'
+import { DocStatus, DocumentType, HttpStatusCode, Logger } from '@kant2002-diia-inhouse/types'
 
 import { AppConfig } from '@interfaces/config'
 import {

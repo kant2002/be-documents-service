@@ -1,5 +1,5 @@
-import { ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import TestKit from '@diia-inhouse/test'
+import { ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import TestKit from '@kant2002-diia-inhouse/test'
 import {
     ActionCode,
     DocStatus,
@@ -10,7 +10,7 @@ import {
     IconAtmActionType,
     TickerAtmType,
     TickerAtmUsage,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import DocumentsDrfoProvider from '@src/documents/taxpayerCard/providers/drfo/index'
 

@@ -1,4 +1,4 @@
-import { UserTokenData } from '@diia-inhouse/types'
+import { UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import { RegistryPassportDTO } from '@interfaces/dto'
 import { PassportByInn, PassportByInnRequester } from '@interfaces/providers/dms'

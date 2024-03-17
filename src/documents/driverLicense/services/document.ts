@@ -1,5 +1,5 @@
-import { AccessDeniedError, BadRequestError, DocumentNotFoundError, InternalServerError } from '@diia-inhouse/errors'
-import { AppUser, DocStatus, DocumentInstance, DocumentType, DriverLicense, Localization, Logger, UserTokenData } from '@diia-inhouse/types'
+import { AccessDeniedError, BadRequestError, DocumentNotFoundError, InternalServerError } from '@kant2002-diia-inhouse/errors'
+import { AppUser, DocStatus, DocumentInstance, DocumentType, DriverLicense, Localization, Logger, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import DriverLicenseDataMapper from '@src/documents/driverLicense/dataMappers/document'
 import { DriverLicenseHscServiceProvider } from '@src/documents/driverLicense/interfaces/providers'

@@ -1,8 +1,8 @@
 import moment from 'moment'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { BadRequestError, InternalServerError } from '@diia-inhouse/errors'
-import { AppUser, AuthDocumentType, DocumentType, Logger, OwnerType, PortalUserTokenData } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { BadRequestError, InternalServerError } from '@kant2002-diia-inhouse/errors'
+import { AppUser, AuthDocumentType, DocumentType, Logger, OwnerType, PortalUserTokenData } from '@kant2002-diia-inhouse/types'
 
 import { AppConfig } from '@interfaces/config'
 import { Person, Representative } from '@interfaces/providers/eis'

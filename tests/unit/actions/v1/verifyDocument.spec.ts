@@ -1,5 +1,5 @@
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocumentInstance } from '@diia-inhouse/types'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocumentInstance } from '@kant2002-diia-inhouse/types'
 
 import VerifyDocumentAction from '@actions/v1/verifyDocument'
 

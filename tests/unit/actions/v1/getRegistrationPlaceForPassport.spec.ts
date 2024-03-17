@@ -1,7 +1,7 @@
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { BadRequestError, NotFoundError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { PlatformType } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { BadRequestError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
 
 import GetRegistrationPlaceForPassportAction from '@actions/v1/getRegistrationPlaceForPassport'
 

@@ -1,11 +1,11 @@
 import { randomUUID } from 'crypto'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import Logger from '@diia-inhouse/diia-logger'
-import { Task } from '@diia-inhouse/diia-queue'
-import { EnvService } from '@diia-inhouse/env'
-import { AccessDeniedError, BadRequestError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { Task } from '@kant2002-diia-inhouse/diia-queue'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { AccessDeniedError, BadRequestError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 import {
     AppUser,
     DocStatus,
@@ -16,7 +16,7 @@ import {
     ProfileFeature,
     SessionType,
     UserSession,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import TaxpayerCardService from '@src/documents/taxpayerCard/services/document'
 

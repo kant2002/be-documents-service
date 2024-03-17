@@ -1,4 +1,4 @@
-import { AppUserActionHeaders, TaxpayerCard, UserActionArguments } from '@diia-inhouse/types'
+import { AppUserActionHeaders, TaxpayerCard, UserActionArguments } from '@kant2002-diia-inhouse/types'
 
 interface ActionHeaders extends AppUserActionHeaders {
     token: string

@@ -1,7 +1,7 @@
 import isBase64 from 'is-base64'
 import moment from 'moment'
 
-import { DocumentNotFoundError } from '@diia-inhouse/errors'
+import { DocumentNotFoundError } from '@kant2002-diia-inhouse/errors'
 import {
     ActionCode,
     DocStatus,
@@ -15,8 +15,8 @@ import {
     Localization,
     TableBlockOrg,
     TableItemMlc,
-} from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import { PassportRegistration, PassportRegistrationInfo } from '@src/generated'
 

@@ -4,10 +4,10 @@ import * as compareVersions from 'compare-versions'
 import { merge } from 'lodash'
 import moment from 'moment'
 
-import { PluginDepsCollection } from '@diia-inhouse/diia-app'
+import { PluginDepsCollection } from '@kant2002-diia-inhouse/diia-app'
 
-import { InternalServerError } from '@diia-inhouse/errors'
-import { AlsData, DocStatus, DocumentType, Localization, PlatformType, TickerAtm, TickerAtmType, TickerAtmUsage } from '@diia-inhouse/types'
+import { InternalServerError } from '@kant2002-diia-inhouse/errors'
+import { AlsData, DocStatus, DocumentType, Localization, PlatformType, TickerAtm, TickerAtmType, TickerAtmUsage } from '@kant2002-diia-inhouse/types'
 
 import {
     DocumentCover,

@@ -1,7 +1,7 @@
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocStatus, DocumentType } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocStatus, DocumentType } from '@kant2002-diia-inhouse/types'
 
 import TaxpayerCardDataMapper from '@src/documents/taxpayerCard/dataMappers/document'
 import { PluginConfig } from '@src/documents/taxpayerCard/interfaces/config'

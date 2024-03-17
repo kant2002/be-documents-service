@@ -2,8 +2,8 @@ import { AsyncLocalStorage } from 'async_hooks'
 
 import moment from 'moment'
 
-import { InternalServerError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
+import { InternalServerError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
 import {
     ActHeaders,
     AlsData,
@@ -13,7 +13,7 @@ import {
     PlatformType,
     TickerAtmType,
     TickerAtmUsage,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import DriverLicenseAttributesService from '@src/documents/driverLicense/services/documentAttributes'
 

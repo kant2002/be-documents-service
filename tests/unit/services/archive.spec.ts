@@ -1,9 +1,9 @@
 import { FilterQuery, Model } from 'mongoose'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { DatabaseError, NotFoundError } from '@diia-inhouse/errors'
-import { mockInstance } from '@diia-inhouse/test'
-import { DocumentType, HttpStatusCode } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { DatabaseError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocumentType, HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import ArchiveService from '@services/archive'
 

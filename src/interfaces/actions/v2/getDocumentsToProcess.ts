@@ -1,4 +1,4 @@
-import { DocumentType, Documents, UserActionArguments } from '@diia-inhouse/types'
+import { DocumentType, Documents, UserActionArguments } from '@kant2002-diia-inhouse/types'
 
 import { GetDocumentToProcessOptions } from '@interfaces/services/documents'
 

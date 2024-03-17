@@ -4,12 +4,12 @@ jest.mock('ean13-lib', () => ({ Ean13Utils: { generate: generateStub } }))
 import moment from 'moment'
 import { FilterQuery } from 'mongoose'
 
-import { AuthService, IdentifierService } from '@diia-inhouse/crypto'
-import { MongoDBErrorCode } from '@diia-inhouse/db'
-import Logger from '@diia-inhouse/diia-logger'
-import { ApiError, BadRequestError, ModelNotFoundError, NotFoundError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocumentType, Localization } from '@diia-inhouse/types'
+import { AuthService, IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { ApiError, BadRequestError, ModelNotFoundError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocumentType, Localization } from '@kant2002-diia-inhouse/types'
 
 const documentVerificationOtpModel = {
     create: jest.fn(),

@@ -1,7 +1,7 @@
 import moment from 'moment'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { mockInstance } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import { PassportRegistration } from '@src/generated'
 

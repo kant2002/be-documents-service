@@ -1,4 +1,4 @@
-import { AppUserActionHeaders, DocumentType, ServiceEntranceActionArguments } from '@diia-inhouse/types'
+import { AppUserActionHeaders, DocumentType, ServiceEntranceActionArguments } from '@kant2002-diia-inhouse/types'
 
 import { Document } from '@interfaces/services/documents'
 

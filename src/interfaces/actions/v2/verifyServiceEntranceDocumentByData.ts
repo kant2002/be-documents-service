@@ -1,4 +1,4 @@
-import { DocumentInstance, ServiceEntranceActionArguments } from '@diia-inhouse/types'
+import { DocumentInstance, ServiceEntranceActionArguments } from '@kant2002-diia-inhouse/types'
 
 export interface CustomActionArguments extends ServiceEntranceActionArguments {
     params: {

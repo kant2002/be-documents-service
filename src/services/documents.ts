@@ -4,12 +4,12 @@ import { find, identity, merge, uniq } from 'lodash'
 import { UpdateQuery } from 'mongoose'
 import { SetRequired } from 'type-fest'
 
-import { PluginDepsCollection } from '@diia-inhouse/diia-app'
+import { PluginDepsCollection } from '@kant2002-diia-inhouse/diia-app'
 
-import { DocumentDecryptedData, IdentifierService } from '@diia-inhouse/crypto'
-import { Task } from '@diia-inhouse/diia-queue'
-import { EnvService } from '@diia-inhouse/env'
-import { AccessDeniedError, BadRequestError, InternalServerError } from '@diia-inhouse/errors'
+import { DocumentDecryptedData, IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { Task } from '@kant2002-diia-inhouse/diia-queue'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { AccessDeniedError, BadRequestError, InternalServerError } from '@kant2002-diia-inhouse/errors'
 import {
     ActHeaders,
     AppUser,
@@ -29,8 +29,8 @@ import {
     UserFeatures,
     UserSession,
     UserTokenData,
-} from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import TaxpayerCardService from '@src/documents/taxpayerCard/services/document'
 

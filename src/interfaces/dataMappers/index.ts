@@ -1,4 +1,4 @@
-import { DocumentType, DocumentTypeCamelCase } from '@diia-inhouse/types'
+import { DocumentType, DocumentTypeCamelCase } from '@kant2002-diia-inhouse/types'
 
 import { CommonDocument } from '@interfaces/services/documents'
 import { ManualDocumentListItemWithOrder } from '@interfaces/services/manualDocumentsList'

@@ -1,10 +1,10 @@
 import { DeleteResult } from 'mongodb'
 import { UpdateWriteOpResult } from 'mongoose'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { NotFoundError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocStatus, DocumentType, DurationMs, OwnerType, PassportType } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { NotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocStatus, DocumentType, DurationMs, OwnerType, PassportType } from '@kant2002-diia-inhouse/types'
 
 import DocumentSettingsService from '@services/documentSettings'
 import DocumentsExpirationService from '@services/documentsExpiration'

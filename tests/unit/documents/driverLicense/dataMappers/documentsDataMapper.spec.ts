@@ -4,10 +4,10 @@ const compareVersionsMock = {
 
 jest.mock('compare-versions', () => ({ compare: compareVersionsMock.compare }))
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocumentType, LicenseType, OwnerType, UserDocumentSubtype } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocumentType, LicenseType, OwnerType, UserDocumentSubtype } from '@kant2002-diia-inhouse/types'
 
 import DriverLicenseDataMapper from '@src/documents/driverLicense/dataMappers/document'
 import { PluginConfig } from '@src/documents/driverLicense/interfaces/config'

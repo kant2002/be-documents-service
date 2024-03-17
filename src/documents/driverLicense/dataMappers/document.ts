@@ -19,8 +19,8 @@ import {
     Localization,
     Logger,
     UserDocumentSubtype,
-} from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import { PluginConfig } from '@src/documents/driverLicense/interfaces/config'
 import {

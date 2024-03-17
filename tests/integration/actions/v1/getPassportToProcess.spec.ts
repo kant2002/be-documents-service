@@ -1,9 +1,9 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { EventBus, ExternalCommunicator, ExternalEvent, InternalEvent, Task } from '@diia-inhouse/diia-queue'
-import TestKit from '@diia-inhouse/test'
-import { ActionVersion, DocStatus, DocumentType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { EventBus, ExternalCommunicator, ExternalEvent, InternalEvent, Task } from '@kant2002-diia-inhouse/diia-queue'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { ActionVersion, DocStatus, DocumentType } from '@kant2002-diia-inhouse/types'
 
 import GetPassportToProcessAction from '@src/actions/v1/getPassportToProcess'
 

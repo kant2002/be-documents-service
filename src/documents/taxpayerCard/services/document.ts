@@ -1,7 +1,7 @@
 import moment from 'moment'
 
-import { AccessDeniedError, BadRequestError, DocumentNotFoundError, InternalServerError } from '@diia-inhouse/errors'
-import { AppUser, DocStatus, DocumentInstance, DocumentType, Localization, Logger, TableBlockOrg, UserTokenData } from '@diia-inhouse/types'
+import { AccessDeniedError, BadRequestError, DocumentNotFoundError, InternalServerError } from '@kant2002-diia-inhouse/errors'
+import { AppUser, DocStatus, DocumentInstance, DocumentType, Localization, Logger, TableBlockOrg, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import TaxpayerCardDataMapper from '@src/documents/taxpayerCard/dataMappers/document'
 import { DocumentsDrfoServiceProvider } from '@src/documents/taxpayerCard/interfaces/providers'

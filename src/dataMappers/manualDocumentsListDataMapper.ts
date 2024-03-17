@@ -1,6 +1,6 @@
 import { orderBy } from 'lodash'
 
-import { PluginDepsCollection } from '@diia-inhouse/diia-app'
+import { PluginDepsCollection } from '@kant2002-diia-inhouse/diia-app'
 
 import { DocumentDataMapper } from '@interfaces/dataMappers'
 import { ManualDocumentListItem, ManualDocumentListItemWithOrder } from '@interfaces/services/manualDocumentsList'

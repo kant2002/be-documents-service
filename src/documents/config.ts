@@ -2,7 +2,7 @@ import path from 'path'
 
 import { globSync } from 'glob'
 
-import { EnvService } from '@diia-inhouse/env'
+import { EnvService } from '@kant2002-diia-inhouse/env'
 
 export const getConfigs = async (envService: EnvService, serviceName: string): Promise<Record<string, unknown>> => {
     const files = globSync('dist/documents/*/config.js')

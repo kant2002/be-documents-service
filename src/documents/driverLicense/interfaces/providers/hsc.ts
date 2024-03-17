@@ -1,4 +1,4 @@
-import { LicenseCategory } from '@diia-inhouse/types'
+import { LicenseCategory } from '@kant2002-diia-inhouse/types'
 
 import { Client, ClientAddress, IdWithValue } from '@interfaces/dto/client'
 

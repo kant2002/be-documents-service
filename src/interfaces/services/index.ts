@@ -1,4 +1,4 @@
-import { AppUserActionHeaders, DocumentType, PlatformType } from '@diia-inhouse/types'
+import { AppUserActionHeaders, DocumentType, PlatformType } from '@kant2002-diia-inhouse/types'
 
 import { CommonDocument, DocumentStatusCode } from '@interfaces/services/documents'
 

@@ -1,8 +1,8 @@
 import { Constructor, asClass } from 'awilix'
 
-import { DepsResolver } from '@diia-inhouse/diia-app'
+import { DepsResolver } from '@kant2002-diia-inhouse/diia-app'
 
-import { DocumentType } from '@diia-inhouse/types'
+import { DocumentType } from '@kant2002-diia-inhouse/types'
 
 import { PluginConfig } from '@src/documents/driverLicense/interfaces/config'
 import { DriverLicenseHscServiceProvider, ProvidersDeps } from '@src/documents/driverLicense/interfaces/providers'

@@ -1,5 +1,5 @@
-import { EnvService } from '@diia-inhouse/env'
-import { DocumentType } from '@diia-inhouse/types'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { DocumentType } from '@kant2002-diia-inhouse/types'
 
 import { PluginConfig } from '@src/documents/driverLicense/interfaces/config'
 

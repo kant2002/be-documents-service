@@ -1,4 +1,4 @@
-import { DocStatus, DocumentType, Localization, TickerAtm, TickerAtmType, TickerAtmUsage } from '@diia-inhouse/types'
+import { DocStatus, DocumentType, Localization, TickerAtm, TickerAtmType, TickerAtmUsage } from '@kant2002-diia-inhouse/types'
 
 import { DocumentCover, DocumentTicker, DocumentTickerCode, DocumentTickerPlaceholder } from '@interfaces/services/documentAttributes'
 import { DocumentAttributesService } from '@interfaces/services/documents'

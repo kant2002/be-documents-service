@@ -1,7 +1,7 @@
-import { PluginDepsCollection } from '@diia-inhouse/diia-app'
+import { PluginDepsCollection } from '@kant2002-diia-inhouse/diia-app'
 
-import { BadRequestError } from '@diia-inhouse/errors'
-import { DocumentType, UserTokenData } from '@diia-inhouse/types'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { DocumentType, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import { DocumentDownloadParams, DocumentDownloadResponse, DocumentService, DownloadStrategy } from '@interfaces/services/documents'
 

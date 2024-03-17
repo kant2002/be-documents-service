@@ -1,11 +1,11 @@
 import { randomUUID } from 'crypto'
 
-import { AnalyticsService } from '@diia-inhouse/analytics'
-import { AuthService } from '@diia-inhouse/crypto'
-import { EventBus, ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import { BadRequestError, DocumentNotFoundError, ErrorType, NotFoundError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
-import { AppUserActionHeaders, DocStatus, DocumentType, DriverLicense, Localization, UserSession, UserTokenData } from '@diia-inhouse/types'
+import { AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import { EventBus, ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import { BadRequestError, DocumentNotFoundError, ErrorType, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { AppUserActionHeaders, DocStatus, DocumentType, DriverLicense, Localization, UserSession, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import ShareDriverLicenseAction from '@src/documents/driverLicense/actions/v1/shareDriverLicense'
 import VerifyDriverLicenseAction from '@src/documents/driverLicense/actions/v1/verifyDriverLicense'

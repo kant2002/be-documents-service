@@ -1,8 +1,8 @@
 import moment from 'moment'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { mockInstance } from '@diia-inhouse/test'
-import { DocStatus, DocumentStatus, DocumentType, LicenseType, TickerAtmType, TickerAtmUsage } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocStatus, DocumentStatus, DocumentType, LicenseType, TickerAtmType, TickerAtmUsage } from '@kant2002-diia-inhouse/types'
 
 import DriverLicenseDataMapper from '@src/documents/driverLicense/dataMappers/document'
 import { PluginConfig } from '@src/documents/driverLicense/interfaces/config'

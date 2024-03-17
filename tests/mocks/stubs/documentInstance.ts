@@ -1,4 +1,4 @@
-import { DocumentInstance } from '@diia-inhouse/types'
+import { DocumentInstance } from '@kant2002-diia-inhouse/types'
 
 import { CommonDocument } from '@interfaces/services/documents'
 

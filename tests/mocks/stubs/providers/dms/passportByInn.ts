@@ -1,7 +1,7 @@
 import { cloneDeep, merge } from 'lodash'
 import { PartialDeep } from 'type-fest'
 
-import { HttpStatusCode } from '@diia-inhouse/types'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import { passportDmsSuccessResponse } from '@providers/testData/documentsMockData'
 

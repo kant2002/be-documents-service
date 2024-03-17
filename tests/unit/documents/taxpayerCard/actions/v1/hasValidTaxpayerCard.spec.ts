@@ -1,4 +1,4 @@
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import HasValidTaxpayerCardAction from '@src/documents/taxpayerCard/actions/v1/hasValidTaxpayerCard'
 import TaxpayerCardService from '@src/documents/taxpayerCard/services/document'

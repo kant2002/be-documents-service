@@ -1,8 +1,8 @@
-import { EventBus, InternalEvent, TaskListener } from '@diia-inhouse/diia-queue'
-import { StoreService } from '@diia-inhouse/redis'
-import { Gender, HttpStatusCode, Logger } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
-import { ValidationSchema } from '@diia-inhouse/validators'
+import { EventBus, InternalEvent, TaskListener } from '@kant2002-diia-inhouse/diia-queue'
+import { StoreService } from '@kant2002-diia-inhouse/redis'
+import { Gender, HttpStatusCode, Logger } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
+import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 import PassportService from '@services/passport'
 

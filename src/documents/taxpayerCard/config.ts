@@ -1,5 +1,5 @@
-import { EnvService } from '@diia-inhouse/env'
-import { DocumentType, DurationS } from '@diia-inhouse/types'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { DocumentType, DurationS } from '@kant2002-diia-inhouse/types'
 
 import { PluginConfig } from '@src/documents/taxpayerCard/interfaces/config'
 

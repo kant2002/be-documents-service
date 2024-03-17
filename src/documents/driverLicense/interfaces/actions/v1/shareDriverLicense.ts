@@ -1,4 +1,4 @@
-import { Localization, UserActionArguments } from '@diia-inhouse/types'
+import { Localization, UserActionArguments } from '@kant2002-diia-inhouse/types'
 
 export interface CustomActionArguments extends UserActionArguments {
     params: {

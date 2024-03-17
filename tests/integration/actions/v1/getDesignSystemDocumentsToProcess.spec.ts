@@ -2,9 +2,9 @@ import { createHash, randomUUID as uuid } from 'crypto'
 
 import moment from 'moment'
 
-import { ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import TestKit from '@diia-inhouse/test'
-import { DocStatus, DocumentType, DocumentTypeCamelCase, HttpStatusCode, InternalPassport } from '@diia-inhouse/types'
+import { ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { DocStatus, DocumentType, DocumentTypeCamelCase, HttpStatusCode, InternalPassport } from '@kant2002-diia-inhouse/types'
 
 import TaxpayerCardService from '@src/documents/taxpayerCard/services/document'
 

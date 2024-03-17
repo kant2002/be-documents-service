@@ -2,10 +2,10 @@ import { Ean13Utils } from 'ean13-lib'
 import moment from 'moment'
 import { FilterQuery } from 'mongoose'
 
-import { MongoDBErrorCode } from '@diia-inhouse/db'
-import { BadRequestError, ModelNotFoundError, NotFoundError } from '@diia-inhouse/errors'
-import { DocumentType, Logger } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import { BadRequestError, ModelNotFoundError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { DocumentType, Logger } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import ArchiveService from '@services/archive'
 

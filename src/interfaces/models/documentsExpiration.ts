@@ -1,6 +1,6 @@
 import { Document } from 'mongoose'
 
-import { DocStatus, DocumentType, OwnerType } from '@diia-inhouse/types'
+import { DocStatus, DocumentType, OwnerType } from '@kant2002-diia-inhouse/types'
 
 export interface DocumentIdStatusByOwnerType {
     value: DocStatus

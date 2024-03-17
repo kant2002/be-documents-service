@@ -1,8 +1,8 @@
 import { randomUUID } from 'crypto'
 
-import { BadRequestError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
-import { DocumentType } from '@diia-inhouse/types'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { DocumentType } from '@kant2002-diia-inhouse/types'
 
 import DocumentDownloadService from '@services/documentDownload'
 

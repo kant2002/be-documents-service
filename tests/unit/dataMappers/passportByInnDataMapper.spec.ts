@@ -1,6 +1,6 @@
 import moment from 'moment'
 
-import { mockInstance } from '@diia-inhouse/test'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import { PassportRegistrationInfo } from '@src/generated'
 

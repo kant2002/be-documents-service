@@ -1,6 +1,6 @@
-import { NotFoundError, UnprocessableEntityError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocStatus } from '@diia-inhouse/types'
+import { NotFoundError, UnprocessableEntityError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocStatus } from '@kant2002-diia-inhouse/types'
 
 import GetDriverLicenseToProcessAction from '@src/documents/driverLicense/actions/v1/getDriverLicenseToProcess'
 import DriverLicenseService from '@src/documents/driverLicense/services/document'

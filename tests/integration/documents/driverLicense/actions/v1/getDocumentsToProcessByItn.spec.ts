@@ -1,6 +1,6 @@
-import { ExternalCommunicator, ExternalEvent } from '@diia-inhouse/diia-queue'
-import TestKit from '@diia-inhouse/test'
-import { DocumentType, Documents, HttpStatusCode } from '@diia-inhouse/types'
+import { ExternalCommunicator, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { DocumentType, Documents, HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import GetDocumentsToProcessByItnAction from '@src/actions/v1/getDocumentsToProcessByItn'
 import { getDriverLicense } from '@src/documents/driverLicense/providers/hsc/mockData'

@@ -1,7 +1,7 @@
-import { AppAction } from '@diia-inhouse/diia-app'
+import { AppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { NotFoundError, UnprocessableEntityError } from '@diia-inhouse/errors'
-import { ActionVersion, DriverLicense, SessionType } from '@diia-inhouse/types'
+import { NotFoundError, UnprocessableEntityError } from '@kant2002-diia-inhouse/errors'
+import { ActionVersion, DriverLicense, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { ActionResult, CustomActionArguments } from '@src/documents/driverLicense/interfaces/actions/v1/getDriverLicenseToProcess'
 import DriverLicenseService from '@src/documents/driverLicense/services/document'

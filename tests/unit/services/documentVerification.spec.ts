@@ -4,12 +4,12 @@ const uuidV4Stub = jest.fn()
 
 jest.mock('uuid', () => ({ v4: uuidV4Stub }))
 
-import { AnalyticsService as CoreAnalyticsService } from '@diia-inhouse/analytics'
-import { AuthService } from '@diia-inhouse/crypto'
-import Logger from '@diia-inhouse/diia-logger'
-import { BadRequestError, DocumentNotFoundError, NotFoundError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocStatus, DocumentType, Localization, OwnerType } from '@diia-inhouse/types'
+import { AnalyticsService as CoreAnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { BadRequestError, DocumentNotFoundError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocStatus, DocumentType, Localization, OwnerType } from '@kant2002-diia-inhouse/types'
 
 import AnalyticsService from '@services/analytics'
 import DocumentsExpirationService from '@services/documentsExpiration'

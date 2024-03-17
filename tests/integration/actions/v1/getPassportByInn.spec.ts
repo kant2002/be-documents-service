@@ -1,7 +1,7 @@
-import { ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import { ExternalCommunicatorError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import { ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import { ExternalCommunicatorError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import GetPassportByInnAction from '@src/actions/v1/getPassportByInn'
 

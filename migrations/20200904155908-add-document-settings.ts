@@ -2,7 +2,7 @@ import 'module-alias/register'
 
 import { Db } from 'mongodb'
 
-import { DocumentType } from '@diia-inhouse/types'
+import { DocumentType } from '@kant2002-diia-inhouse/types'
 
 import { ExpirationType } from '@interfaces/models/documentSetting'
 

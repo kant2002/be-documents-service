@@ -1,6 +1,6 @@
-import { AnalyticsService } from '@diia-inhouse/analytics'
-import { Task } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError, BadRequestError, DocumentNotFoundError, InternalServerError, NotFoundError } from '@diia-inhouse/errors'
+import { AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { Task } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError, BadRequestError, DocumentNotFoundError, InternalServerError, NotFoundError } from '@kant2002-diia-inhouse/errors'
 import {
     AppUser,
     DocStatus,
@@ -11,8 +11,8 @@ import {
     PortalUserTokenData,
     SessionType,
     UserTokenData,
-} from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import TaxpayerCardService from '@src/documents/taxpayerCard/services/document'
 import { PassportRegistrationInfo } from '@src/generated'

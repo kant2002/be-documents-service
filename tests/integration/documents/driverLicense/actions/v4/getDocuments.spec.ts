@@ -1,10 +1,10 @@
 import { when } from 'jest-when'
 import { PartialDeep } from 'type-fest'
 
-import { IdentifierService } from '@diia-inhouse/crypto'
-import { EventBus, ExternalCommunicator, InternalEvent } from '@diia-inhouse/diia-queue'
-import TestKit from '@diia-inhouse/test'
-import { DocStatus, DocumentType, DriverLicense, HttpStatusCode, OwnerType } from '@diia-inhouse/types'
+import { IdentifierService } from '@kant2002-diia-inhouse/crypto'
+import { EventBus, ExternalCommunicator, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { DocStatus, DocumentType, DriverLicense, HttpStatusCode, OwnerType } from '@kant2002-diia-inhouse/types'
 
 import { DriverLicenseHscServiceProvider } from '@src/documents/driverLicense/interfaces/providers'
 import { RegistryDriverLicenseDTO } from '@src/documents/driverLicense/interfaces/providers/hsc'

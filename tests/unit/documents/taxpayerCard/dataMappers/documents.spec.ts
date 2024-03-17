@@ -1,7 +1,7 @@
 import moment from 'moment'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 import {
     ActionCode,
     DocStatus,
@@ -13,7 +13,7 @@ import {
     Localization,
     TickerAtmType,
     TickerAtmUsage,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import TaxpayerCardDataMapper from '@src/documents/taxpayerCard/dataMappers/document'
 

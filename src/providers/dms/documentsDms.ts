@@ -1,6 +1,6 @@
-import { ExternalCommunicator, ExternalEvent } from '@diia-inhouse/diia-queue'
-import { NotFoundError } from '@diia-inhouse/errors'
-import { Logger } from '@diia-inhouse/types'
+import { ExternalCommunicator, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import PassportByInnDataMapper from '@dataMappers/passportByInnDataMapper'
 

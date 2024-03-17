@@ -1,7 +1,7 @@
-import Logger from '@diia-inhouse/diia-logger'
-import { AccessDeniedError, BadRequestError, DocumentNotFoundError, InternalServerError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { DocStatus, DocumentType, DriverLicense, OwnerType } from '@diia-inhouse/types'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { AccessDeniedError, BadRequestError, DocumentNotFoundError, InternalServerError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { DocStatus, DocumentType, DriverLicense, OwnerType } from '@kant2002-diia-inhouse/types'
 
 import DriverLicenseDataMapper from '@src/documents/driverLicense/dataMappers/document'
 import DriverLicenseHscProvider from '@src/documents/driverLicense/providers/hsc'

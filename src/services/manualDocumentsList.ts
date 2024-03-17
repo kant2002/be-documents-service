@@ -1,8 +1,8 @@
 import { SetRequired } from 'type-fest'
 
-import { PluginDepsCollection } from '@diia-inhouse/diia-app'
+import { PluginDepsCollection } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionCode, AppUser, ArrowedLinkAction, ButtonState, ListItemMlc, Logger, UserTokenData } from '@diia-inhouse/types'
+import { ActionCode, AppUser, ArrowedLinkAction, ButtonState, ListItemMlc, Logger, UserTokenData } from '@kant2002-diia-inhouse/types'
 
 import UserService from '@services/user'
 

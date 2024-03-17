@@ -1,4 +1,4 @@
-import { DocumentInstance, DocumentType, UserActionArguments } from '@diia-inhouse/types'
+import { DocumentInstance, DocumentType, UserActionArguments } from '@kant2002-diia-inhouse/types'
 
 import { DocumentsWithOrder } from '@interfaces/services/documents'
 

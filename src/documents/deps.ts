@@ -5,7 +5,7 @@ import { globSync } from 'glob'
 import { camelCase, upperFirst } from 'lodash'
 import { singular } from 'pluralize'
 
-import { DepsResolver, LoadDepsFromFolderOptions } from '@diia-inhouse/diia-app'
+import { DepsResolver, LoadDepsFromFolderOptions } from '@kant2002-diia-inhouse/diia-app'
 
 import { AppConfig } from '@interfaces/config'
 

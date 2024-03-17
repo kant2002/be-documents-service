@@ -1,10 +1,10 @@
 import { isEmpty } from 'lodash'
 import { UpdateQuery } from 'mongoose'
 
-import { PluginDepsCollection } from '@diia-inhouse/diia-app'
+import { PluginDepsCollection } from '@kant2002-diia-inhouse/diia-app'
 
-import { NotFoundError } from '@diia-inhouse/errors'
-import { DocumentType, DurationMs, Logger } from '@diia-inhouse/types'
+import { NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { DocumentType, DurationMs, Logger } from '@kant2002-diia-inhouse/types'
 
 import DocumentSettingsService from '@services/documentSettings'
 

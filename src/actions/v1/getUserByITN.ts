@@ -1,8 +1,8 @@
 import { pick } from 'lodash'
 
-import { AppAction } from '@diia-inhouse/diia-app'
+import { AppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion, SessionType } from '@diia-inhouse/types'
+import { ActionVersion, SessionType } from '@kant2002-diia-inhouse/types'
 
 import DocumentsExpirationService from '@services/documentsExpiration'
 

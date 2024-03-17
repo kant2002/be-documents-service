@@ -1,7 +1,7 @@
-import { GrpcAppAction } from '@diia-inhouse/diia-app'
+import { GrpcAppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { InternalServerError, NotFoundError } from '@diia-inhouse/errors'
-import { ActionVersion, SessionType } from '@diia-inhouse/types'
+import { InternalServerError, NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { ActionVersion, SessionType } from '@kant2002-diia-inhouse/types'
 
 import DocumentsService from '@services/documents'
 
